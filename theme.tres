@@ -1,0 +1,14 @@
+[gd_resource type="Theme" format=3 uid="uid://vu31b71jmlkp"]
+
+[ext_resource type="Texture2D" uid="uid://chv2fa8y7e3re" path="res://TextBox1.png" id="1_cjfk0"]
+[ext_resource type="FontFile" uid="uid://cu2bydgc5ct0d" path="res://Pangolin-Regular.ttf" id="2_vj6dk"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lquwl"]
+texture = ExtResource("1_cjfk0")
+region_rect = Rect2(0, 0, 700, 230)
+
+[resource]
+Panel/styles/panel = SubResource("StyleBoxTexture_lquwl")
+RichTextLabel/colors/default_color = Color(0, 0, 0, 1)
+RichTextLabel/font_sizes/normal_font_size = 60
+RichTextLabel/fonts/normal_font = ExtResource("2_vj6dk")

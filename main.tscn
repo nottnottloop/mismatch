@@ -1,0 +1,174 @@
+[gd_scene format=3 uid="uid://bhf4jh67udym5"]
+
+[ext_resource type="Script" uid="uid://br6clhy0wcu1n" path="res://main.gd" id="1_h2yge"]
+[ext_resource type="Theme" uid="uid://vu31b71jmlkp" path="res://theme.tres" id="2_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://chv2fa8y7e3re" path="res://TextBox1.png" id="2_h2yge"]
+[ext_resource type="FontFile" uid="uid://cu2bydgc5ct0d" path="res://Pangolin-Regular.ttf" id="3_1bvp3"]
+[ext_resource type="Shader" path="res://wobble.gdshader" id="5_7mycd"]
+[ext_resource type="Texture2D" uid="uid://dwqftu4ohb2su" path="res://SplitLine.png" id="5_lquwl"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7mycd"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"2",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lquwl"]
+texture = ExtResource("2_h2yge")
+region_rect = Rect2(0, 0, 700, 230)
+
+[sub_resource type="Theme" id="Theme_7mycd"]
+Panel/styles/panel = SubResource("StyleBoxTexture_lquwl")
+RichTextLabel/colors/default_color = Color(0, 0, 0, 1)
+RichTextLabel/font_sizes/normal_font_size = 60
+RichTextLabel/fonts/normal_font = ExtResource("3_1bvp3")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_h2yge"]
+
+[sub_resource type="Animation" id="Animation_1bvp3"]
+length = 0.001
+
+[sub_resource type="Animation" id="Animation_lquwl"]
+resource_name = "textBox"
+length = 0.6
+loop_mode = 1
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../..")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.3, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [],
+"method": &"addTextBoxStyle"
+}, {
+"args": [],
+"method": &"removeTextBoxStyle"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_7mycd"]
+_data = {
+&"RESET": SubResource("Animation_1bvp3"),
+&"textBox": SubResource("Animation_lquwl")
+}
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_272bh"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_5vw27"]
+noise = SubResource("FastNoiseLite_272bh")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kek77"]
+shader = ExtResource("5_7mycd")
+shader_parameter/scale = Vector2(1, 1)
+shader_parameter/strength = 0.1
+shader_parameter/fps = 6.0
+shader_parameter/noise = SubResource("NoiseTexture2D_5vw27")
+
+[node name="main" type="Node2D" unique_id=349520352]
+script = ExtResource("1_h2yge")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1307661264]
+position = Vector2(478, 228)
+sprite_frames = SubResource("SpriteFrames_7mycd")
+autoplay = "default"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=152399280]
+
+[node name="textBoxes" type="HSplitContainer" parent="CanvasLayer" unique_id=687967992]
+clip_contents = true
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -2.0
+offset_top = 737.0
+offset_right = -2.0
+grow_horizontal = 2
+grow_vertical = 2
+split_offsets = PackedInt32Array(960)
+dragging_enabled = false
+split_offset = 960
+
+[node name="textBox1" type="MarginContainer" parent="CanvasLayer/textBoxes" unique_id=1864588424]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="Panel" type="Panel" parent="CanvasLayer/textBoxes/textBox1" unique_id=724133588]
+layout_mode = 2
+theme = ExtResource("2_1bvp3")
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/textBoxes/textBox1/Panel" unique_id=591292850]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 30
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 30
+
+[node name="Subtitles" type="RichTextLabel" parent="CanvasLayer/textBoxes/textBox1/Panel/MarginContainer" unique_id=1297471734]
+layout_mode = 2
+theme = SubResource("Theme_7mycd")
+bbcode_enabled = true
+text = "[shake  rate=4 level=8]Yo[/shake]"
+scroll_active = false
+custom_effects = [SubResource("RichTextEffect_h2yge")]
+
+[node name="textBox2" type="MarginContainer" parent="CanvasLayer/textBoxes" unique_id=1573133163]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="Panel" type="Panel" parent="CanvasLayer/textBoxes/textBox2" unique_id=1622699367]
+layout_mode = 2
+theme = ExtResource("2_1bvp3")
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/textBoxes/textBox2/Panel" unique_id=1538794358]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 30
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 30
+
+[node name="Subtitles" type="RichTextLabel" parent="CanvasLayer/textBoxes/textBox2/Panel/MarginContainer" unique_id=1672837581]
+layout_mode = 2
+theme = SubResource("Theme_7mycd")
+bbcode_enabled = true
+text = "Yo"
+
+[node name="textBoxEffect" type="AnimationPlayer" parent="CanvasLayer/textBoxes" unique_id=851076211]
+libraries/ = SubResource("AnimationLibrary_7mycd")
+autoplay = &"textBox"
+
+[node name="Line" type="Sprite2D" parent="." unique_id=1436307979]
+material = SubResource("ShaderMaterial_kek77")
+position = Vector2(966, 539)
+texture = ExtResource("5_lquwl")
