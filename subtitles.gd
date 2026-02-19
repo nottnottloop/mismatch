@@ -1,10 +1,10 @@
 extends Label
 
 var finishedText = ""
-var subtitles = $CanvasLayer/HSplitContainer/textBox1/Panel/MarginContainer/Subtitles
+var subtitles
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
+	subtitles = $CanvasLayer/HSplitContainer/textBox1/Panel/MarginContainer/Subtitles
 
 var idx = 0
 var lastLetter = Time.get_ticks_msec()
