@@ -1,26 +1,28 @@
-extends Label
+extends RichTextLabel
 
 var finishedText = ""
-var subtitles
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	subtitles = $CanvasLayer/HSplitContainer/textBox1/Panel/MarginContainer/Subtitles
+	pass
 
 var idx = 0
 var lastLetter = Time.get_ticks_msec()
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if text != finishedText and Time.get_ticks_msec()-lastLetter> 100 :
+	if idx <= len(finishedText)-1 and Time.get_ticks_msec()-lastLetter> 50/Engine.time_scale and finishedText:
 		if finishedText[idx]  in ",.":
-			lastLetter = Time.get_ticks_msec()+100
+			lastLetter = Time.get_ticks_msec()+50/Engine.time_scale
 
 		else:
 			lastLetter = Time.get_ticks_msec()
-		text += finishedText[idx]
+		text = "[shake  rate=4 level=8]"+finishedText.substr(0,idx+1)+"[/shake]"
 		idx += 1
 
-
-func setLine(ttext):
+func setLine(ttext: String):
 	text = ""
-	idx = 0
+	if ":" in ttext:
+		idx = ttext.find(":")
+	else:
+		idx = 0
 	finishedText = ttext

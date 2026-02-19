@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://baeoyhuhdwgcl"
-path="res://.godot/imported/Scene2WifeMad1.png-b643d9bea827b5ac937dbed34b820295.ctex"
+uid="uid://c21v6h38n1yf1"
+path="res://.godot/imported/Scene2Mouth1.png-3aef999cb0dfc48806e785eeb2f49aac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scene2/Scene2WifeMad1.png"
-dest_files=["res://.godot/imported/Scene2WifeMad1.png-b643d9bea827b5ac937dbed34b820295.ctex"]
+source_file="res://Scene1/Scene2Mouth1.png"
+dest_files=["res://.godot/imported/Scene2Mouth1.png-3aef999cb0dfc48806e785eeb2f49aac.ctex"]
 
 [params]
 

@@ -1,10 +1,13 @@
 extends Node2D
 
 var otherBox
+var sub1
+var sub2
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	otherBox = $CanvasLayer/textBoxes/textBox1/Panel.get_theme_stylebox("panel").duplicate()
-	
+	sub1 = $CanvasLayer/textBoxes/textBox1/Panel/MarginContainer/Subtitles
+	sub2 = $CanvasLayer/textBoxes/textBox2/Panel/MarginContainer/Subtitles
 	otherBox.texture = preload("res://TextBox2.png")
 	#$Subtitles.setLine("Marco : dennis is a fool to even attempt to enter my eyeline")
 
@@ -12,7 +15,11 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	pass	
+	if Input.is_action_pressed("ui_up"):
+		Engine.time_scale = 5
+	else:
+		Engine.time_scale = 1
+
 
 
 func _on_button_1_pressed() -> void:
@@ -31,3 +38,48 @@ func addTextBoxStyle():
 func removeTextBoxStyle():
 	$CanvasLayer/textBoxes/textBox1/Panel.remove_theme_stylebox_override("panel")
 	$CanvasLayer/textBoxes/textBox2/Panel.remove_theme_stylebox_override("panel")
+
+var choice1
+var choice2
+func decision(scene: int):
+	if scene == 1:
+		addChoices("I love you too","Yeah, that would be nice")
+func addChoices(c1,c2,hover=0):
+	var hoverSize = "65"
+	choice1 = c1
+	choice2 = c2
+	if hover == 1:
+		sub1.text += '\n [shake  rate=4 level=8][url="'+c1+'"][font_size='+hoverSize+']' +c1+'[/font_size][/url]\n[url="' +c2+'"]' +c2+'[/url][/shake]'
+		sub2.text += '\n [shake  rate=4 level=8][url="'+c1+'"][font_size='+hoverSize+']' +c1+'[/font_size][/url]\n[url="' +c2+'"]' +c2+'[/url][/shake]'
+	elif hover == 2:
+		sub1.text += '\n [shake  rate=4 level=8][url="'+c1+'"]' +c1+'[/url]\n[url="' +c2+'"][font_size='+hoverSize+']' +c2+'[/font_size][/url][/shake]'
+		sub2.text += '\n [shake  rate=4 level=8][url="'+c1+'"]' +c1+'[/url]\n[url="' +c2+'"][font_size='+hoverSize+']' +c2+'[/font_size][/url][/shake]'
+	else:
+		sub1.text += '\n [url="'+c1+'"]' +c1+'[/url]\n[url="' +c2+'"]' +c2+'[/url]'
+		sub2.text += '\n [url="'+c1+'"]' +c1+'[/url]\n[url="' +c2+'"]' +c2+'[/url]'
+func _on_subtitles_meta_hover_started(meta: Variant) -> void:
+	if choice1 and choice2:
+		sub1.text = sub1.finishedText
+		sub2.text = sub2.finishedText
+		if meta == choice1:
+			addChoices(choice1,choice2,1)
+		elif meta == choice2:
+			addChoices(choice1,choice2,2)
+		else:
+			addChoices(choice1,choice2)
+func _on_subtitles_meta_hover_ended(_meta: Variant) -> void:
+	sub1.text = sub1.finishedText
+	sub2.text = sub2.finishedText
+	if choice1 and choice2:
+		addChoices(choice1,choice2)
+
+
+func _on_subtitles_meta_clicked(meta: Variant) -> void:
+	sub1.text = sub1.finishedText
+	sub2.text = sub1.finishedText
+	if meta == choice1:
+		$scene1/AnimationPlayer.play(str($scene1/AnimationPlayer.get_meta("last"))+"1")
+	if meta == choice2:
+		$scene1/AnimationPlayer.play(str($scene1/AnimationPlayer.get_meta("last"))+"2")
+	choice1 = null
+	choice2 = null
