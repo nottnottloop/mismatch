@@ -2,24 +2,128 @@
 
 [ext_resource type="Script" uid="uid://br6clhy0wcu1n" path="res://main.gd" id="1_h2yge"]
 [ext_resource type="Theme" uid="uid://vu31b71jmlkp" path="res://theme.tres" id="2_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://y8q6b4aeus2d" path="res://Scene1/Scene1F1.png" id="2_d13ii"]
 [ext_resource type="Texture2D" uid="uid://chv2fa8y7e3re" path="res://TextBox1.png" id="2_h2yge"]
+[ext_resource type="Texture2D" uid="uid://df32w7ajs3i3a" path="res://Scene2/Scene2F1.png" id="2_ycdy4"]
 [ext_resource type="FontFile" uid="uid://cu2bydgc5ct0d" path="res://Pangolin-Regular.ttf" id="3_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://d4falbt2tisvp" path="res://Scene1/Scene1F2.png" id="3_1u8w0"]
+[ext_resource type="Texture2D" uid="uid://bkibyko35lh0p" path="res://Scene2/Scene2Wife1.png" id="3_w48qg"]
+[ext_resource type="Texture2D" uid="uid://dtnmb27rggka7" path="res://Scene2/Scene2Wife2.png" id="4_vivmo"]
+[ext_resource type="Texture2D" uid="uid://baeoyhuhdwgcl" path="res://Scene2/Scene2WifeMad1.png" id="5_2cqfq"]
 [ext_resource type="Shader" path="res://wobble.gdshader" id="5_7mycd"]
 [ext_resource type="Texture2D" uid="uid://dwqftu4ohb2su" path="res://SplitLine.png" id="5_lquwl"]
+[ext_resource type="Texture2D" uid="uid://dxwaywyh027g2" path="res://Scene2/Scene2WifeMad2.png" id="6_yaehf"]
+[ext_resource type="Texture2D" uid="uid://bj6ty88lre0y3" path="res://Scene2/Scene2Slam1.png" id="7_074og"]
+[ext_resource type="Texture2D" uid="uid://bw6loyhfobhdx" path="res://Scene2/Scene2Slam2.png" id="8_cegan"]
+[ext_resource type="Texture2D" uid="uid://bo2ht6xeixo5r" path="res://Scene1/Scene1Bag4.png" id="10_82xsv"]
+[ext_resource type="Texture2D" uid="uid://btx4lsjun42ok" path="res://Scene1/Scene1Bag5.png" id="11_getpj"]
+[ext_resource type="Texture2D" uid="uid://big1ix814wfvb" path="res://Scene1/Scene1Bag6.png" id="12_ryguw"]
+[ext_resource type="Texture2D" uid="uid://dnndpsnefsbxy" path="res://Scene1/Scene1Bag7.png" id="13_d13ii"]
+[ext_resource type="Texture2D" uid="uid://1eg6n001ixj2" path="res://Scene1/Scene1bag8.png" id="14_1u8w0"]
+[ext_resource type="Texture2D" uid="uid://b3f7w1kyu6nor" path="res://Scene1/Scene1Bag9.png" id="15_0odxb"]
+[ext_resource type="Texture2D" uid="uid://b5meiuoruwy8j" path="res://Scene1/Scene1Bag10.png" id="16_lswn8"]
+[ext_resource type="Texture2D" uid="uid://cd5cl5usuq8ta" path="res://Scene1/Scene1Bag11.png" id="17_a6jrf"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_7mycd"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_0odxb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_d13ii")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_1u8w0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xuqvo"]
 animations = [{
 "frames": [],
 "loop": true,
-"name": &"1",
+"name": &"default",
 "speed": 5.0
 }, {
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_82xsv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_getpj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ryguw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ryguw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_d13ii")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_1u8w0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_1u8w0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_0odxb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_lswn8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_lswn8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_a6jrf")
+}],
+"loop": false,
+"name": &"filled",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_82xsv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_w48qg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_vivmo")
+}],
 "loop": true,
-"name": &"2",
+"name": &"default",
 "speed": 5.0
 }, {
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_2cqfq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_yaehf")
+}],
+"loop": true,
+"name": &"mad",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_getpj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_074og")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_cegan")
+}, {
+"duration": 1.0,
+"texture": null
+}],
 "loop": true,
 "name": &"default",
 "speed": 5.0
@@ -83,10 +187,36 @@ shader_parameter/noise = SubResource("NoiseTexture2D_5vw27")
 [node name="main" type="Node2D" unique_id=349520352]
 script = ExtResource("1_h2yge")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1307661264]
-position = Vector2(478, 228)
-sprite_frames = SubResource("SpriteFrames_7mycd")
-autoplay = "default"
+[node name="scene1" type="Node2D" parent="." unique_id=1810238575]
+
+[node name="left" type="CanvasModulate" parent="scene1" unique_id=1648886262]
+position = Vector2(480, 540)
+color = Color(0.9867516, 0.9867516, 0.9867516, 1)
+
+[node name="background" type="AnimatedSprite2D" parent="scene1/left" unique_id=2067141420]
+sprite_frames = SubResource("SpriteFrames_0odxb")
+
+[node name="bag" type="AnimatedSprite2D" parent="scene1/left" unique_id=2013871319]
+position = Vector2(0, -173)
+sprite_frames = SubResource("SpriteFrames_xuqvo")
+animation = &"filled"
+
+[node name="right" type="CanvasModulate" parent="scene1" unique_id=2142008226]
+position = Vector2(1440, 540)
+color = Color(0.9867516, 0.9867516, 0.9867516, 1)
+
+[node name="background" type="Sprite2D" parent="scene1/right" unique_id=1467185339]
+texture = ExtResource("2_ycdy4")
+
+[node name="wife" type="AnimatedSprite2D" parent="scene1/right" unique_id=1697663385]
+sprite_frames = SubResource("SpriteFrames_82xsv")
+animation = &"mad"
+frame_progress = 0.13645807
+
+[node name="door" type="AnimatedSprite2D" parent="scene1/right" unique_id=831488751]
+position = Vector2(-8, 0)
+sprite_frames = SubResource("SpriteFrames_getpj")
+frame_progress = 0.60988045
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=152399280]
 
@@ -128,6 +258,7 @@ theme_override_constants/margin_right = 30
 theme_override_constants/margin_bottom = 30
 
 [node name="Subtitles" type="RichTextLabel" parent="CanvasLayer/textBoxes/textBox1/Panel/MarginContainer" unique_id=1297471734]
+clip_contents = false
 layout_mode = 2
 theme = SubResource("Theme_7mycd")
 bbcode_enabled = true
@@ -159,10 +290,11 @@ theme_override_constants/margin_right = 30
 theme_override_constants/margin_bottom = 30
 
 [node name="Subtitles" type="RichTextLabel" parent="CanvasLayer/textBoxes/textBox2/Panel/MarginContainer" unique_id=1672837581]
+clip_contents = false
 layout_mode = 2
 theme = SubResource("Theme_7mycd")
 bbcode_enabled = true
-text = "Yo"
+text = "[shake  rate=4 level=8]Yo[/shake]"
 
 [node name="textBoxEffect" type="AnimationPlayer" parent="CanvasLayer/textBoxes" unique_id=851076211]
 libraries/ = SubResource("AnimationLibrary_7mycd")
