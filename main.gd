@@ -46,6 +46,10 @@ func decision(scene: int):
 		addChoices("I love you too","Yeah, that would be nice")
 	elif scene == 12:
 		addChoices("No, its fine","Love you too!")
+	elif scene == 2:
+		addChoices("Dont take my money!","Oh im so sorry")
+	elif scene == 21:
+		addChoices("Give me your money","How about.. NO!")
 func addChoices(c1,c2,hover=0):
 	var hoverSize = "65"
 	choice1 = c1
@@ -80,8 +84,8 @@ func _on_subtitles_meta_clicked(meta: Variant) -> void:
 	sub1.text = "[shake  rate=4 level=8]"+sub1.finishedText+"[/shake]"
 	sub2.text = "[shake  rate=4 level=8]"+sub2.finishedText+"[/shake]"
 	if meta == choice1:
-		$scene1/AnimationPlayer.play(str($scene1/AnimationPlayer.get_meta("last"))+"1")
+		$AnimationPlayer.play(str($AnimationPlayer.get_meta("last"))+"1")
 	if meta == choice2:
-		$scene1/AnimationPlayer.play(str($scene1/AnimationPlayer.get_meta("last"))+"2")
+		$AnimationPlayer.play(str($AnimationPlayer.get_meta("last"))+"2")
 	choice1 = null
 	choice2 = null

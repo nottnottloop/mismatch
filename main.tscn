@@ -45,6 +45,54 @@
 [ext_resource type="Texture2D" uid="uid://bhg5gftp4yenp" path="res://Scene1/Scene2AngryMouthTalking.png" id="36_wnkbs"]
 [ext_resource type="Texture2D" uid="uid://crm12j66us7cm" path="res://Scene1/Scene2MouthTalking.png" id="37_f6a44"]
 [ext_resource type="Texture2D" uid="uid://c6y7w8775nids" path="res://Scene1/Scene2F3.png" id="37_qnost"]
+[ext_resource type="Texture2D" uid="uid://b0khcouut6rl6" path="res://Scene2/Guy/Guy0003.png" id="40_n5t1e"]
+[ext_resource type="Texture2D" uid="uid://co2wf30hmkgwi" path="res://Scene2/Guy/Guy0004.png" id="41_h6isl"]
+[ext_resource type="Texture2D" uid="uid://bxeqwybomqc8y" path="res://Scene2/Guy/Guy0009.png" id="42_53bls"]
+[ext_resource type="Texture2D" uid="uid://cvcij73h2gqum" path="res://Scene2/Guy/Guy0010.png" id="43_lwnsi"]
+[ext_resource type="Texture2D" uid="uid://ivnuqcl1s2lr" path="res://Scene2/Guy/Guy0001.png" id="44_41lik"]
+[ext_resource type="Texture2D" uid="uid://dbysvrrxosmqh" path="res://Scene2/Guy/Guy0002.png" id="45_jbvwl"]
+[ext_resource type="Texture2D" uid="uid://bsygkjp2l5h3o" path="res://Scene2/Guy/Guy0007.png" id="46_sn1fb"]
+[ext_resource type="Texture2D" uid="uid://b17kgbugevfgp" path="res://Scene2/Guy/Guy0008.png" id="47_yvsr8"]
+[ext_resource type="Texture2D" uid="uid://cy78wxwhmir12" path="res://Scene2/Guy/Guy0005.png" id="48_vieuh"]
+[ext_resource type="Texture2D" uid="uid://esb07ggmdctt" path="res://Scene2/Guy/Guy0006.png" id="49_yjja3"]
+[ext_resource type="Texture2D" uid="uid://4wbhmmqbrttf" path="res://Scene2/Scene3Backround.png" id="50_l0gw7"]
+[ext_resource type="Texture2D" uid="uid://dkawtw8j0ecmh" path="res://Scene2/Scene3Clouds.png" id="51_inymm"]
+[ext_resource type="Texture2D" uid="uid://b33ekri0kal2f" path="res://Scene2/Scene3Foreground.png" id="52_jcxqu"]
+[ext_resource type="Texture2D" uid="uid://t2gop3pj5mgp" path="res://Scene2/OldLady/1.png" id="53_0arob"]
+[ext_resource type="Texture2D" uid="uid://dd22766tk6mlf" path="res://Scene2/OldLady/2.png" id="54_dij0e"]
+[ext_resource type="Texture2D" uid="uid://7owmgyjptid3" path="res://Scene2/OldLady/3.png" id="55_k1udn"]
+[ext_resource type="Texture2D" uid="uid://cn3gfmf0eyigp" path="res://Scene2/OldLady/4.png" id="56_wat4s"]
+[ext_resource type="Texture2D" uid="uid://64sah1xw0hqc" path="res://Scene2/OldLady/5.png" id="57_ywjan"]
+[ext_resource type="Texture2D" uid="uid://wfa33omiim3a" path="res://Scene2/OldLady/6.png" id="58_m74q3"]
+[ext_resource type="Texture2D" uid="uid://bk730mk1uknub" path="res://Scene2/OldLady/7.png" id="59_tko6h"]
+[ext_resource type="Texture2D" uid="uid://c8eon0ldtlbql" path="res://Scene2/OldLady/8.png" id="60_am8a1"]
+[ext_resource type="Texture2D" uid="uid://ptopbtbx7lj2" path="res://Scene2/OldLady/9.png" id="61_8dc3g"]
+[ext_resource type="Texture2D" uid="uid://di5ux18vh556d" path="res://Scene2/OldLady/OldLady0011.png" id="64_f3y11"]
+[ext_resource type="Texture2D" uid="uid://cgm8cn0jarwfb" path="res://Scene2/OldLady/OldLady0012.png" id="65_cpm2s"]
+[ext_resource type="Texture2D" uid="uid://bwy72ogbnr2hg" path="res://Scene2/OldLady/OldLady0013.png" id="66_u81y6"]
+[ext_resource type="Texture2D" uid="uid://c12wt5w01x1yw" path="res://Scene2/OldLady/OldLady0014.png" id="67_rt5wr"]
+[ext_resource type="Texture2D" uid="uid://cejr4gr04o3nu" path="res://Scene2/OldLady/OldLady0015.png" id="68_mnw77"]
+[ext_resource type="Texture2D" uid="uid://wpfmtbk7bu8d" path="res://Scene2/OldLady/OldLady0016.png" id="69_vjgyh"]
+[ext_resource type="Texture2D" uid="uid://bb7mq38k65i8d" path="res://Scene2/OldLady/OldLady0017.png" id="70_d5iia"]
+[ext_resource type="Texture2D" uid="uid://bg10c8rj1wmwb" path="res://Scene2/OldLady/OldLady0018.png" id="71_asu84"]
+[ext_resource type="Texture2D" uid="uid://bjwc7l4pmg76c" path="res://Scene2/OldLady/OldLady0019.png" id="72_qwt6e"]
+[ext_resource type="Texture2D" uid="uid://ujeuui0cklc3" path="res://Scene2/OldLady/OldLady0020.png" id="73_off2o"]
+[ext_resource type="Texture2D" uid="uid://k0ddfdk8jbmw" path="res://Scene2/OldLady/Backround2.png" id="74_53bls"]
+[ext_resource type="Texture2D" uid="uid://bg4hq74opqeni" path="res://Scene2/OldLady/20.png" id="74_tttfs"]
+[ext_resource type="Texture2D" uid="uid://2kfsv1gbute7" path="res://Scene2/OldLady/21.png" id="75_1iygd"]
+[ext_resource type="Texture2D" uid="uid://daedjk0pmamwv" path="res://Scene2/OldLady/OldLady0010.png" id="76_g5xqc"]
+[ext_resource type="Texture2D" uid="uid://dlcelhxss1caq" path="res://Scene2/OldLady/LadyAngry1.png" id="77_lwnsi"]
+[ext_resource type="Texture2D" uid="uid://bet8ainttf6gs" path="res://Scene2/OldLady/Mouth1.png" id="77_s4o1y"]
+[ext_resource type="Texture2D" uid="uid://4yrvrbho883i" path="res://Scene2/OldLady/Mouth2.png" id="78_7mmqq"]
+[ext_resource type="Texture2D" uid="uid://4v2kuag2we8e" path="res://Scene2/OldLady/LadyAngry2.png" id="78_41lik"]
+[ext_resource type="Texture2D" uid="uid://rk6nk3jborqt" path="res://Scene2/OldLady/MouthTalking.png" id="79_3exxq"]
+[ext_resource type="Texture2D" uid="uid://dbciu2jj03jfv" path="res://Scene2/OldLady/LafyAngryTalking.png" id="79_jbvwl"]
+[ext_resource type="Texture2D" uid="uid://tddi3e78o1qf" path="res://Scene2/Guy1.png" id="80_5aa3q"]
+[ext_resource type="Texture2D" uid="uid://d33s0xcyjrlfu" path="res://Scene2/Guy2.png" id="81_bmvma"]
+[ext_resource type="Texture2D" uid="uid://civ1vwumgmofa" path="res://Scene2/GuyMouth1.png" id="82_shlp4"]
+[ext_resource type="Texture2D" uid="uid://m32ibaw4k6pq" path="res://Scene2/GuyMouth2.png" id="83_2n44k"]
+[ext_resource type="Texture2D" uid="uid://bx2sgwfjdm1jd" path="res://Scene2/GuyMouthTalking.png" id="84_86lig"]
+[ext_resource type="Texture2D" uid="uid://7yd1fx0x450" path="res://Scene2/OldLady/GameOverGlass.png" id="85_ldnlw"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_0odxb"]
 animations = [{
@@ -302,6 +350,262 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qe8ju"]
+load_path = "res://.godot/imported/Backround.png-f23ecd7b2917c1ce527aa3bac8425f33.ctex"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bnk2o"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("40_n5t1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_h6isl")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_53bls")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_lwnsi")
+}],
+"loop": true,
+"name": &"money",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("44_41lik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_jbvwl")
+}],
+"loop": true,
+"name": &"pointing",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("46_sn1fb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_yvsr8")
+}],
+"loop": true,
+"name": &"realize",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("48_vieuh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_yjja3")
+}],
+"loop": true,
+"name": &"sorry",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_oosfy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("53_0arob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_dij0e")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("55_k1udn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_wat4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_ywjan")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_m74q3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_tko6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_am8a1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_8dc3g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_g5xqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_f3y11")
+}],
+"loop": false,
+"name": &"gettingUp",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("64_f3y11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_cpm2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_u81y6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_rt5wr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_mnw77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_vjgyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_d5iia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_asu84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_qwt6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_off2o")
+}],
+"loop": false,
+"name": &"gun",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("74_tttfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_1iygd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_53bls")
+}],
+"loop": false,
+"name": &"shoot",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("76_g5xqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_f3y11")
+}],
+"loop": true,
+"name": &"standingUp",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nf4f2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("77_lwnsi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_41lik")
+}],
+"loop": true,
+"name": &"angry",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("78_41lik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_jbvwl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_3exxq")
+}],
+"loop": true,
+"name": &"angryTalking",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("77_s4o1y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_7mmqq")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("78_7mmqq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_3exxq")
+}],
+"loop": true,
+"name": &"talking",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xkvoa"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("80_5aa3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_bmvma")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_t5kpo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("82_shlp4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_2n44k")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("83_2n44k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_86lig")
+}],
+"loop": true,
+"name": &"talking",
+"speed": 5.0
+}]
+
 [sub_resource type="Animation" id="Animation_qnost"]
 length = 0.001
 tracks/0/type = "value"
@@ -459,6 +763,172 @@ tracks/12/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [&"default"]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("../scene2/left/robber:animation")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"pointing"]
+}
+tracks/14/type = "bezier"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("../scene2/left/robber:position:x")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(639, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/15/type = "bezier"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("../scene2/left/robber:position:y")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-103, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("../scene2:visible")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("../scene2/right/lady:position")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(813, 17)]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("../scene2/right/lady:rotation")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.5707964]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("../scene2/right/lady:animation")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"default"]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("../scene2/right/mouth:visible")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("../scene2/left/robber:position")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -268)]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("../scene2/right/lady:frame")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [9]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("../scene2/right/ColorRect/gameoverGlass:position")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-106, 2058)]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("../scene2/right/builderMouth:position")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(430.665, 0)]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("../scene2/right/builder:position")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(430.665, 0)]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("../scene2/right/clouds:visible")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
 }
 
 [sub_resource type="Animation" id="Animation_wnkbs"]
@@ -675,7 +1145,7 @@ tracks/15/keys = {
 tracks/16/type = "method"
 tracks/16/imported = false
 tracks/16/enabled = true
-tracks/16/path = NodePath("AnimationPlayer")
+tracks/16/path = NodePath("../AnimationPlayer")
 tracks/16/interp = 1
 tracks/16/loop_wrap = true
 tracks/16/keys = {
@@ -705,7 +1175,7 @@ length = 40.0
 tracks/0/type = "method"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer")
+tracks/0/path = NodePath("../AnimationPlayer")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -771,7 +1241,7 @@ tracks/4/keys = {
 "args": ["Cashier: YOU READ MY MIND!!!"],
 "method": &"setLine"
 }, {
-"args": ["Cashier: i-im g-gonna go to a restraunt later if you wanna come"],
+"args": ["Cashier: i-im g-gonna go to a restaurant later if you wanna come"],
 "method": &"setLine"
 }, {
 "args": ["Cashier: NOT THAT YOU HAVE TOO!"],
@@ -863,7 +1333,7 @@ length = 40.0
 tracks/0/type = "method"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer")
+tracks/0/path = NodePath("../AnimationPlayer")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -1088,7 +1558,7 @@ markers = [{
 tracks/0/type = "method"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer")
+tracks/0/path = NodePath("../AnimationPlayer")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -1302,7 +1772,7 @@ length = 40.0
 tracks/0/type = "method"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer")
+tracks/0/path = NodePath("../AnimationPlayer")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -1449,6 +1919,1235 @@ tracks/8/keys = {
 }
 
 [sub_resource type="Animation" id="Animation_0cbny"]
+resource_name = "Scene2"
+length = 10.0
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../CanvasLayer/textBoxes/textBox1/Panel/MarginContainer/Subtitles")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.43333334, 1.4333333),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": ["Robber: HEY YOU!"],
+"method": &"setLine"
+}, {
+"args": ["Robber: Give me everything you have!"],
+"method": &"setLine"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../scene2/left/robber:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"pointing"]
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../scene2/left/robber:position:x")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(639, -0.25, 0, 0.25, 0, 0, -0.17583844, 106.5, 0, 0),
+"times": PackedFloat32Array(0, 0.43333334)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../scene2/left/robber:position:y")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(-103, -0.25, 0, 0.25, 0, -268, -0.17583844, 27.500002, 0, 0),
+"times": PackedFloat32Array(0, 0.43333334)
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../scene2:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/5/type = "method"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../scene2/left/robber")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"pointing", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../left:color")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 4.6, 5.083684, 7.266667, 7.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 0), Color(0, 0, 0, 0.63529414), Color(0, 0, 0, 0.63529414), Color(0, 0, 0, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("../right:color")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 4.6, 5.083684),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0.69803923), Color(0, 0, 0, 0.69803923), Color(0, 0, 0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("../scene2/right/lady:position")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 5.1321325, 5.478755, 5.7, 5.9333334, 6.666667),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(813, 17), Vector2(813, 17), Vector2(813, 17), Vector2(361, -200), Vector2(164, -98), Vector2(0, -75)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("../scene2/right/lady:rotation")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 5.1321325, 5.478755, 5.7, 5.9333334),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [1.5707964, 1.5707964, 1.5707964, 0.5235988, 0.0]
+}
+tracks/10/type = "method"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("../CanvasLayer/textBoxes/textBox2/Panel/MarginContainer/Subtitles")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(5.733333),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["Old Lady: AHHHH"],
+"method": &"setLine"
+}]
+}
+tracks/11/type = "method"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("..")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(7.7),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [2],
+"method": &"decision"
+}]
+}
+tracks/12/type = "method"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("../AnimationPlayer")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"last", "Scene2"],
+"method": &"set_meta"
+}]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("../scene2/right/mouth:visible")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_n5t1e"]
+resource_name = "Scene2"
+length = 40.0
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../CanvasLayer/textBoxes/textBox1/Panel/MarginContainer/Subtitles")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.5, 2.6, 4.5666666, 7.9666667, 9.133333, 10.366667, 12.118496),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"values": [{
+"args": ["You: Dont take my money!"],
+"method": &"setLine"
+}, {
+"args": ["Robber: What money bro?"],
+"method": &"setLine"
+}, {
+"args": ["Robber: Your so poor duck throw bread at you!"],
+"method": &"setLine"
+}, {
+"args": ["Robber: Your so poor"],
+"method": &"setLine"
+}, {
+"args": ["Robber: Your so poor"],
+"method": &"setLine"
+}, {
+"args": [" "],
+"method": &"setLine"
+}, {
+"args": [" Robber: Im not gonna take your money bro"],
+"method": &"setLine"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../scene2/left/robber:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"pointing"]
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../scene2/left/robber:position:x")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(0, -0.17583844, 106.5, 0, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../scene2/left/robber:position:y")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-268, -0.17583844, 27.500002, 0, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../scene2:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/5/type = "method"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../scene2/left/robber")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 12.1777315),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [&"pointing", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"default", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../left:color")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 15.066667, 15.550349, 27.633337, 28.066668),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 0), Color(0, 0, 0, 0.63529414), Color(0, 0, 0, 0.63529414), Color(0, 0, 0, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("../right:color")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 15.066667, 15.550349),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0.69803923), Color(0, 0, 0, 0.69803923), Color(0, 0, 0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("../scene2/right/lady:position")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -75)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("../scene2/right/lady:rotation")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/10/type = "method"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("../CanvasLayer/textBoxes/textBox2/Panel/MarginContainer/Subtitles")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(16.7, 25.148096),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": ["You: Dont take my money!"],
+"method": &"setLine"
+}, {
+"args": ["Old Lady: Give me all your money!"],
+"method": &"setLine"
+}]
+}
+tracks/11/type = "method"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("..")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(28.233334),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [21],
+"method": &"decision"
+}]
+}
+tracks/12/type = "method"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("../AnimationPlayer")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"last", "Scene21"],
+"method": &"set_meta"
+}]
+}
+tracks/13/type = "method"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("../scene2/right/lady")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(19.166666, 22.7),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [&"gettingUp", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"gun", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("../scene2/right/lady:animation")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"default"]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("../scene2/right/mouth:visible")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 22.770195),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/16/type = "method"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("right/mouth")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(22.633333, 25.148096, 27.32488),
+"transitions": PackedFloat32Array(1, 1, 1),
+"values": [{
+"args": [&"angry", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"angryTalking", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"angry", 1.0, false],
+"method": &"play"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_h6isl"]
+resource_name = "Scene211"
+length = 40.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../scene2/left/robber:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -268)]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../scene2/left/robber")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 4.5666666),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [&"default", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"money", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../CanvasLayer/textBoxes/textBox1/Panel/MarginContainer/Subtitles")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.7, 4.5487967),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": ["You: Give me your money"],
+"method": &"setLine"
+}, {
+"args": ["\"Robber\": Of course man here you go"],
+"method": &"setLine"
+}]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../left:color")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 7.049924, 7.6936746),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 0), Color(0, 0, 0, 0.5294118)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../right:color")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 7.0251646, 7.7184343),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0.69803923), Color(0, 0, 0, 0.69803923), Color(0, 0, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../scene2/right/lady:animation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"gun"]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../scene2/right/lady:frame")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [9]
+}
+tracks/7/type = "method"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("../CanvasLayer/textBoxes/textBox2/Panel/MarginContainer/Subtitles")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(7.6666665, 10.200969, 18.533333, 22.9, 26.902573, 35.246567, 37.326378),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"values": [{
+"args": ["You: Give me your money"],
+"method": &"setLine"
+}, {
+"args": ["Old Lady: My money, is that how you talk to us older citizens?"],
+"method": &"setLine"
+}, {
+"args": ["Builder: Come on dont stop!"],
+"method": &"setLine"
+}, {
+"args": ["Builder: Sorry about that marlon can be a bit lazy"],
+"method": &"setLine"
+}, {
+"args": ["Builder: were just bringing over some glass for the arcade"],
+"method": &"setLine"
+}, {
+"args": ["Old Lady: Im just joking!"],
+"method": &"setLine"
+}, {
+"args": ["Old Lady: You should have seen the look on your face!"],
+"method": &"setLine"
+}]
+}
+tracks/8/type = "method"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("../scene2/right/lady")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(15.4),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"shoot", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("../scene2/right/lady:position")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 15.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Vector2(0, -75), Vector2(0, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("../scene2/right/lady:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("../scene2/right/mouth:visible")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 15.414031),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("../scene2/right/ColorRect/gameoverGlass:position")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 16.1073, 16.77581, 20.114344, 20.733334, 21.476122, 33.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(468, 2661), Vector2(468, 2660), Vector2(468, 249), Vector2(468, 249), Vector2(468, -92), Vector2(468, -1003), Vector2(421, -1655)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("../scene2/right/builderMouth:position")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(21.694218, 22.127552, 32.533333, 32.922184),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(430.665, 0), Vector2(11.9999695, 0), Vector2(11.9999695, 0), Vector2(430.665, 0)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("../scene2/right/builder:position")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(21.694218, 22.127552, 32.533333, 32.955517),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(430.665, 0), Vector2(11.9999695, 0), Vector2(11.9999695, 0), Vector2(430.665, 0)]
+}
+tracks/15/type = "method"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("../scene2/right/builderMouth")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(19.994635, 22.9, 32.533333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"values": [{
+"args": [&"default", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"talking", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"default", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("../scene2/right/clouds:visible")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0, 15.389343, 15.958815),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [true, false, true]
+}
+tracks/17/type = "method"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("../AnimationPlayer")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(39.566666),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"Scene3", -1, 1.0, false],
+"method": &"play"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_53bls"]
+resource_name = "Scene212"
+length = 40.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../scene2/left/robber:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -268)]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../scene2/left/robber")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"default", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../CanvasLayer/textBoxes/textBox1/Panel/MarginContainer/Subtitles")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.7, 4.5666666),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": ["You: How about... NO!"],
+"method": &"setLine"
+}, {
+"args": ["Robber: Damn, just tryna be nice, I think you could learn a little respect."],
+"method": &"setLine"
+}]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../left:color")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 11.478369, 12.12212),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 0), Color(0, 0, 0, 0.5294118)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../right:color")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 11.453609, 12.146879),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0.69803923), Color(0, 0, 0, 0.69803923), Color(0, 0, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../scene2/right/lady:animation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"gun"]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../scene2/right/lady:frame")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [9]
+}
+tracks/7/type = "method"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("../CanvasLayer/textBoxes/textBox2/Panel/MarginContainer/Subtitles")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(12.095112, 19.552635, 23.9193, 27.921875, 36.26587, 38.34568),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"values": [{
+"args": ["You: How about... NO!"],
+"method": &"setLine"
+}, {
+"args": ["Builder: Come on dont stop!"],
+"method": &"setLine"
+}, {
+"args": ["Builder: Sorry about that marlon can be a bit lazy"],
+"method": &"setLine"
+}, {
+"args": ["Builder: were just bringing over some glass for the arcade"],
+"method": &"setLine"
+}, {
+"args": ["Old Lady: Im just joking!"],
+"method": &"setLine"
+}, {
+"args": ["Old Lady: You should have seen the look on your face!"],
+"method": &"setLine"
+}]
+}
+tracks/8/type = "method"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("../scene2/right/lady")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(16.4193),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"shoot", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("../scene2/right/lady:position")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 16.4193),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Vector2(0, -75), Vector2(0, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("../scene2/right/lady:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("../scene2/right/mouth:visible")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 16.433332),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("../scene2/right/ColorRect/gameoverGlass:position")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 17.126602, 17.795113, 21.133644, 21.752636, 22.495422, 34.6193),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(468, 2661), Vector2(468, 2660), Vector2(468, 249), Vector2(468, 249), Vector2(468, -92), Vector2(468, -1003), Vector2(421, -1655)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("../scene2/right/builderMouth:position")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(22.71352, 23.146854, 33.552635, 33.941486),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(430.665, 0), Vector2(11.9999695, 0), Vector2(11.9999695, 0), Vector2(430.665, 0)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("../scene2/right/builder:position")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(22.71352, 23.146854, 33.552635, 33.97482),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(430.665, 0), Vector2(11.9999695, 0), Vector2(11.9999695, 0), Vector2(430.665, 0)]
+}
+tracks/15/type = "method"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("../scene2/right/builderMouth")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(21.013935, 23.9193, 33.552635),
+"transitions": PackedFloat32Array(1, 1, 1),
+"values": [{
+"args": [&"default", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"talking", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"default", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("../scene2/right/clouds:visible")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0, 16.408646, 16.978115),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [true, false, true]
+}
+tracks/17/type = "method"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("../AnimationPlayer")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(40.585968),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"Scene3", -1, 1.0, false],
+"method": &"play"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_lwnsi"]
+resource_name = "Scene22"
+length = 55.0
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../CanvasLayer/textBoxes/textBox1/Panel/MarginContainer/Subtitles")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.5999999, 2.4666667, 3.8666666, 5.6, 7.633333, 8.690478, 11.566667, 15.3, 18.566668, 22.5, 26.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"values": [{
+"args": ["You: Oh, Im so sorry"],
+"method": &"setLine"
+}, {
+"args": ["Robber: Your sorry?"],
+"method": &"setLine"
+}, {
+"args": ["Robber: YOUR SORRY!"],
+"method": &"setLine"
+}, {
+"args": ["Robber: No No NO!"],
+"method": &"setLine"
+}, {
+"args": ["Robber: IM SORRY"],
+"method": &"setLine"
+}, {
+"args": ["Robber: im the one tryna rob you."],
+"method": &"setLine"
+}, {
+"args": ["Robber: I-I don't know whats gotten into me..."],
+"method": &"setLine"
+}, {
+"args": ["Robber: Yknow what, your right."],
+"method": &"setLine"
+}, {
+"args": ["Robber: I'm sick of robbin' people"],
+"method": &"setLine"
+}, {
+"args": ["Robber: from now on, i'm gonna be the good guy!"],
+"method": &"setLine"
+}, {
+"args": ["Robber: im gonna be the guy who gets robbed!"],
+"method": &"setLine"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../scene2/left/robber:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"pointing"]
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../scene2/left/robber:position:x")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(3, 0, 0),
+"points": PackedFloat32Array(0, -0.17583844, 106.5, 0, 0, 0, -7.370812, 0, 7.370812, 0, 0, -0.44928217, 0, 0.44928217, 0),
+"times": PackedFloat32Array(0, 30.135687, 30.819105)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../scene2/left/robber:position:y")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(3, 0, 0, 0),
+"points": PackedFloat32Array(-268, -0.17583844, 27.500002, 0, 0, -265.5, -0.5124788, 0, 0.5124788, 0, -268, -0.026287079, 39.5, 0.026287079, -39.5, -1150, -0.44928217, 220.5, 0.44928217, -220.5),
+"times": PackedFloat32Array(0, 29.35244, 30.135687, 30.819105)
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../scene2:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/5/type = "method"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../scene2/left/robber")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 7.6, 15.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"values": [{
+"args": [&"pointing", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"sorry", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"realize", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../left:color")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 32.616314, 33.1, 54.033333, 54.46666),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 0), Color(0, 0, 0, 0.63529414), Color(0, 0, 0, 0.63529414), Color(0, 0, 0, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("../right:color")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 32.616314, 33.1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0.69803923), Color(0, 0, 0, 0.69803923), Color(0, 0, 0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("../scene2/right/lady:position")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -75)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("../scene2/right/lady:rotation")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/10/type = "method"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("../CanvasLayer/textBoxes/textBox2/Panel/MarginContainer/Subtitles")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(34.433334, 36.2, 44.566666, 47.43333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"values": [{
+"args": ["You: Oh, Im so sorry!"],
+"method": &"setLine"
+}, {
+"args": ["Old Lady: Its okay sweetie, im just gonna need 10,000 in insurance"],
+"method": &"setLine"
+}, {
+"args": ["Old Lady: Im just joking!"],
+"method": &"setLine"
+}, {
+"args": ["Old Lady: You should have seen the look on your face haha"],
+"method": &"setLine"
+}]
+}
+tracks/11/type = "method"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("..")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(),
+"transitions": PackedFloat32Array(),
+"values": []
+}
+tracks/12/type = "method"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("../AnimationPlayer")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 54.16666),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [&"last", "Scene21"],
+"method": &"set_meta"
+}, {
+"args": [&"Scene3", -1, 1.0, false],
+"method": &"play"
+}]
+}
+tracks/13/type = "method"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("../scene2/right/lady")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(35.366665),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"gettingUp", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("../scene2/right/lady:animation")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"default"]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("../scene2/right/mouth:visible")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 36),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/16/type = "method"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("../scene2/right/mouth")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(35.733334, 36.33224, 41.433334, 44.533333, 51.53333),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"values": [{
+"args": [&"default", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"talking", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"default", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"talking", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"default", 1.0, false],
+"method": &"play"
+}]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_f6a44"]
 _data = {
@@ -1458,7 +3157,11 @@ _data = {
 &"Scene12": SubResource("Animation_f6a44"),
 &"Scene121": SubResource("Animation_0n3wm"),
 &"Scene122": SubResource("Animation_hrvbo"),
-&"Scene2": SubResource("Animation_0cbny")
+&"Scene2": SubResource("Animation_0cbny"),
+&"Scene21": SubResource("Animation_n5t1e"),
+&"Scene211": SubResource("Animation_h6isl"),
+&"Scene212": SubResource("Animation_53bls"),
+&"Scene22": SubResource("Animation_lwnsi")
 }
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lquwl"]
@@ -1563,9 +3266,71 @@ sprite_frames = SubResource("SpriteFrames_0cbny")
 position = Vector2(0, -17)
 sprite_frames = SubResource("SpriteFrames_getpj")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="scene1" unique_id=1918323572]
+[node name="scene2" type="Node2D" parent="." unique_id=256413312]
+
+[node name="left" type="Node2D" parent="scene2" unique_id=882300159]
+position = Vector2(480, 540)
+
+[node name="background" type="Sprite2D" parent="scene2/left" unique_id=198342837]
+texture = SubResource("CompressedTexture2D_qe8ju")
+
+[node name="robber" type="AnimatedSprite2D" parent="scene2/left" unique_id=412295403]
+position = Vector2(0, -268)
+sprite_frames = SubResource("SpriteFrames_bnk2o")
+animation = &"pointing"
+
+[node name="right" type="Node2D" parent="scene2" unique_id=171989641]
+position = Vector2(1440, 523)
+
+[node name="background" type="Sprite2D" parent="scene2/right" unique_id=1695759928]
+texture = ExtResource("50_l0gw7")
+
+[node name="foreground" type="Sprite2D" parent="scene2/right" unique_id=736937055]
+texture = ExtResource("52_jcxqu")
+
+[node name="lady" type="AnimatedSprite2D" parent="scene2/right" unique_id=472384505]
+position = Vector2(813, 17)
+rotation = 1.5707964
+sprite_frames = SubResource("SpriteFrames_oosfy")
+frame = 1
+
+[node name="clouds" type="Sprite2D" parent="scene2/right" unique_id=365414008]
+position = Vector2(0, -3)
+texture = ExtResource("51_inymm")
+
+[node name="mouth" type="AnimatedSprite2D" parent="scene2/right" unique_id=200890585]
+position = Vector2(0, -75)
+sprite_frames = SubResource("SpriteFrames_nf4f2")
+animation = &"angry"
+
+[node name="builder" type="AnimatedSprite2D" parent="scene2/right" unique_id=1650235452]
+position = Vector2(430.665, 0)
+sprite_frames = SubResource("SpriteFrames_xkvoa")
+frame = 1
+frame_progress = 0.31091943
+
+[node name="builderMouth" type="AnimatedSprite2D" parent="scene2/right" unique_id=1044670061]
+position = Vector2(430.665, 0)
+sprite_frames = SubResource("SpriteFrames_t5kpo")
+frame = 1
+frame_progress = 0.32985267
+
+[node name="ColorRect" type="ColorRect" parent="scene2/right" unique_id=216146152]
+clip_contents = true
+offset_left = -470.0
+offset_top = -524.0
+offset_right = 492.0
+offset_bottom = 557.0
+color = Color(1, 1, 1, 0)
+
+[node name="gameoverGlass" type="Sprite2D" parent="scene2/right/ColorRect" unique_id=198680185]
+position = Vector2(-106, 2058)
+texture = ExtResource("85_ldnlw")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1918323572]
+root_node = NodePath("../scene1")
 libraries/ = SubResource("AnimationLibrary_f6a44")
-autoplay = &"Scene1"
+autoplay = &"Scene212"
 metadata/last = ""
 
 [node name="left" type="ColorRect" parent="." unique_id=413973183]
@@ -1574,10 +3339,9 @@ offset_bottom = 1080.0
 color = Color(0, 0, 0, 0.7764706)
 
 [node name="right" type="ColorRect" parent="." unique_id=458309866]
-offset_left = 970.0
-offset_top = -1.0
+offset_left = 972.0
 offset_right = 1920.0
-offset_bottom = 1079.0
+offset_bottom = 1080.0
 color = Color(0, 0, 0, 0.8156863)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=152399280]
