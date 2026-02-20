@@ -16,7 +16,7 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	if Input.is_action_pressed("ui_up"):
-		Engine.time_scale = 5
+		Engine.time_scale = 10
 	else:
 		Engine.time_scale = 1
 
@@ -61,8 +61,8 @@ func addChoices(c1,c2,hover=0):
 		sub2.text += '\n [url="'+c1+'"]' +c1+'[/url]\n[url="' +c2+'"]' +c2+'[/url]'
 func _on_subtitles_meta_hover_started(meta: Variant) -> void:
 	if choice1 and choice2:
-		sub1.text = sub1.finishedText
-		sub2.text = sub2.finishedText
+		sub1.text = "[shake  rate=4 level=8]"+sub1.finishedText+"[/shake]"
+		sub2.text = "[shake  rate=4 level=8]"+sub2.finishedText+"[/shake]"
 		if meta == choice1:
 			addChoices(choice1,choice2,1)
 		elif meta == choice2:
@@ -70,15 +70,15 @@ func _on_subtitles_meta_hover_started(meta: Variant) -> void:
 		else:
 			addChoices(choice1,choice2)
 func _on_subtitles_meta_hover_ended(_meta: Variant) -> void:
-	sub1.text = sub1.finishedText
-	sub2.text = sub2.finishedText
+	sub1.text = "[shake  rate=4 level=8]"+sub1.finishedText+"[/shake]"
+	sub2.text = "[shake  rate=4 level=8]"+sub2.finishedText+"[/shake]"
 	if choice1 and choice2:
 		addChoices(choice1,choice2)
 
 
 func _on_subtitles_meta_clicked(meta: Variant) -> void:
-	sub1.text = sub1.finishedText
-	sub2.text = sub2.finishedText
+	sub1.text = "[shake  rate=4 level=8]"+sub1.finishedText+"[/shake]"
+	sub2.text = "[shake  rate=4 level=8]"+sub2.finishedText+"[/shake]"
 	if meta == choice1:
 		$scene1/AnimationPlayer.play(str($scene1/AnimationPlayer.get_meta("last"))+"1")
 	if meta == choice2:
