@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bhg5gftp4yenp"
-path="res://.godot/imported/Scene2AngryMouthTalking.png-5ba730158cd99e46580cff2d14cc142c.ctex"
+uid="uid://c8eon0ldtlbql"
+path="res://.godot/imported/8.png-14ed0315d45f31339ecdecce8168e05f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scene2/Scene2AngryMouthTalking.png"
-dest_files=["res://.godot/imported/Scene2AngryMouthTalking.png-5ba730158cd99e46580cff2d14cc142c.ctex"]
+source_file="res://Scene3/OldLady/8.png"
+dest_files=["res://.godot/imported/8.png-14ed0315d45f31339ecdecce8168e05f.ctex"]
 
 [params]
 

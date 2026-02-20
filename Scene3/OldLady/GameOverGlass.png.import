@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c21v6h38n1yf1"
-path="res://.godot/imported/Scene2Mouth1.png-7bf7315d6d2cced4d4b2452d023ebf51.ctex"
+uid="uid://7yd1fx0x450"
+path="res://.godot/imported/GameOverGlass.png-f04390de4e221a7cbf17850c7f8dcc70.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scene2/Scene2Mouth1.png"
-dest_files=["res://.godot/imported/Scene2Mouth1.png-7bf7315d6d2cced4d4b2452d023ebf51.ctex"]
+source_file="res://Scene3/OldLady/GameOverGlass.png"
+dest_files=["res://.godot/imported/GameOverGlass.png-f04390de4e221a7cbf17850c7f8dcc70.ctex"]
 
 [params]
 

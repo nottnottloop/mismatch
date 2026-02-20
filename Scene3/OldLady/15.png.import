@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ci7dt7tmn5qbt"
-path="res://.godot/imported/Scene2Mouth2.png-2d91089f8160c9998cda4a8e67327ea5.ctex"
+uid="uid://cthcxdb6gmo3x"
+path="res://.godot/imported/15.png-ec63e8146fd80dad1ff02b93ba73c0be.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scene2/Scene2Mouth2.png"
-dest_files=["res://.godot/imported/Scene2Mouth2.png-2d91089f8160c9998cda4a8e67327ea5.ctex"]
+source_file="res://Scene3/OldLady/15.png"
+dest_files=["res://.godot/imported/15.png-ec63e8146fd80dad1ff02b93ba73c0be.ctex"]
 
 [params]
 

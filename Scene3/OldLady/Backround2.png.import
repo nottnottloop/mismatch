@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://crm12j66us7cm"
-path="res://.godot/imported/Scene2MouthTalking.png-b8fbe03abf50efb3f3c70c7b792c4f26.ctex"
+uid="uid://k0ddfdk8jbmw"
+path="res://.godot/imported/Backround2.png-680d4dc078eb1148ff4bcd1ba1656650.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scene2/Scene2MouthTalking.png"
-dest_files=["res://.godot/imported/Scene2MouthTalking.png-b8fbe03abf50efb3f3c70c7b792c4f26.ctex"]
+source_file="res://Scene3/OldLady/Backround2.png"
+dest_files=["res://.godot/imported/Backround2.png-680d4dc078eb1148ff4bcd1ba1656650.ctex"]
 
 [params]
 

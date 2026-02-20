@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bkibyko35lh0p"
-path="res://.godot/imported/Scene2Wife1.png-d84107c4198a60c6b83aff0690237e6b.ctex"
+uid="uid://7owmgyjptid3"
+path="res://.godot/imported/3.png-1f69e412d20241be74f957bf4f4fd97d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scene2/Scene2Wife1.png"
-dest_files=["res://.godot/imported/Scene2Wife1.png-d84107c4198a60c6b83aff0690237e6b.ctex"]
+source_file="res://Scene3/OldLady/3.png"
+dest_files=["res://.godot/imported/3.png-1f69e412d20241be74f957bf4f4fd97d.ctex"]
 
 [params]
 
