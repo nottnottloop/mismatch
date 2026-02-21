@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dpac7lrlcpmor"
+path="res://.godot/imported/Mozarty style.mp3-883409647c86833b4162841aa5d7cc73.mp3str"
+
+[deps]
+
+source_file="res://Mozarty style.mp3"
+dest_files=["res://.godot/imported/Mozarty style.mp3-883409647c86833b4162841aa5d7cc73.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

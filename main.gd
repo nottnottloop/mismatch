@@ -39,6 +39,13 @@ func removeTextBoxStyle():
 	$CanvasLayer/textBoxes/textBox1/Panel.remove_theme_stylebox_override("panel")
 	$CanvasLayer/textBoxes/textBox2/Panel.remove_theme_stylebox_override("panel")
 
+func setMusic(s: String):
+	if $music.get_stream_playback():
+		$music.get_stream_playback().switch_to_clip_by_name(s)
+
+func setSFX(s: String):
+	if $SFX.get_stream_playback():
+		$SFX.get_stream_playback().switch_to_clip_by_name(s)
 var choice1
 var choice2
 func decision(scene: int):

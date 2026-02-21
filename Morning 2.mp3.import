@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c0liknm037ybj"
+path="res://.godot/imported/Morning 2.mp3-a8b92b036db776ff2931b4be79098263.mp3str"
+
+[deps]
+
+source_file="res://Morning 2.mp3"
+dest_files=["res://.godot/imported/Morning 2.mp3-a8b92b036db776ff2931b4be79098263.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

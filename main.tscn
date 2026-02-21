@@ -44,6 +44,7 @@
 [ext_resource type="Texture2D" uid="uid://bhg5gftp4yenp" path="res://Scene1/Scene2AngryMouthTalking.png" id="36_wnkbs"]
 [ext_resource type="Texture2D" uid="uid://crm12j66us7cm" path="res://Scene1/Scene2MouthTalking.png" id="37_f6a44"]
 [ext_resource type="Texture2D" uid="uid://c6y7w8775nids" path="res://Scene1/Scene2F3.png" id="37_qnost"]
+[ext_resource type="Texture2D" uid="uid://c8jv06djgbb0p" path="res://Scene2/Backround.png" id="40_c8pmb"]
 [ext_resource type="Texture2D" uid="uid://b0khcouut6rl6" path="res://Scene2/Guy/Guy0003.png" id="40_n5t1e"]
 [ext_resource type="Texture2D" uid="uid://co2wf30hmkgwi" path="res://Scene2/Guy/Guy0004.png" id="41_h6isl"]
 [ext_resource type="Texture2D" uid="uid://bxeqwybomqc8y" path="res://Scene2/Guy/Guy0009.png" id="42_53bls"]
@@ -438,6 +439,17 @@
 [ext_resource type="Texture2D" uid="uid://bks1cen11comt" path="res://Scene3/Scene2/Scene6/Scene6_2/Frame2.png" id="431_mhh5e"]
 [ext_resource type="Texture2D" uid="uid://dxvw5ritswnvo" path="res://Scene3/Scene2/Scene6/Scene6_2/Frame3.png" id="432_rywk6"]
 [ext_resource type="FontFile" uid="uid://c8ciasubv4vcy" path="res://lovely_rose/Lovely Rose.otf" id="435_21jki"]
+[ext_resource type="AudioStream" uid="uid://dfvb6vnaikjqk" path="res://supermarket.mp3" id="439_fgj2h"]
+[ext_resource type="AudioStream" uid="uid://cyw7ffh5d1t1t" path="res://love.mp3" id="440_33vkc"]
+[ext_resource type="AudioStream" uid="uid://dadiaqqbcm7t4" path="res://Worker.mp3" id="442_ct655"]
+[ext_resource type="AudioStream" uid="uid://clsmxqottvdij" path="res://bag1.mp3" id="443_7wskh"]
+[ext_resource type="AudioStream" uid="uid://cnnd43prunrgp" path="res://talking.wav" id="443_k508x"]
+[ext_resource type="AudioStream" uid="uid://dm5bsjq0451kj" path="res://working.mp3" id="443_tk4ml"]
+[ext_resource type="AudioStream" uid="uid://0vwfwxni3plt" path="res://femalevoice.mp3" id="444_lt7rr"]
+[ext_resource type="AudioStream" uid="uid://iae6c028pnsi" path="res://bag2.mp3" id="444_we7ek"]
+[ext_resource type="AudioStream" uid="uid://c6motoug3iwg2" path="res://closeDoor.mp3" id="445_we7ek"]
+[ext_resource type="AudioStream" uid="uid://c5q1111mhho86" path="res://gunCock.mp3" id="446_4t3jq"]
+[ext_resource type="AudioStream" uid="uid://stkf3wy8qlv6" path="res://gunshot.mp3" id="447_wibxs"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_0odxb"]
 animations = [{
@@ -694,9 +706,6 @@ animations = [{
 "name": &"slam",
 "speed": 5.0
 }]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qe8ju"]
-load_path = "res://.godot/imported/Backround.png-f23ecd7b2917c1ce527aa3bac8425f33.ctex"
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_bnk2o"]
 animations = [{
@@ -2625,7 +2634,7 @@ tracks/23/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(-106, 2058)]
+"values": [Vector2(-75, 2607)]
 }
 tracks/24/type = "value"
 tracks/24/imported = false
@@ -2678,7 +2687,7 @@ tracks/27/keys = {
 
 [sub_resource type="Animation" id="Animation_wnkbs"]
 resource_name = "Scene1"
-length = 20.0
+length = 9999999.0
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -2698,7 +2707,7 @@ tracks/1/path = NodePath("left/guy:position")
 tracks/1/interp = 2
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(6.7000003, 6.9, 7.1000004, 7.28, 7.4666667, 7.666667, 7.8333335),
+"times": PackedFloat32Array(4.9333334, 5.133333, 5.3333335, 5.5133333, 5.7, 5.9, 6.0666666),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
 "update": 0,
 "values": [Vector2(-82, -121), Vector2(-45, -160), Vector2(37, -94), Vector2(109, -125), Vector2(226, -68), Vector2(376, -126), Vector2(480, -38)]
@@ -2734,7 +2743,7 @@ tracks/4/path = NodePath("left/bag")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
-"times": PackedFloat32Array(10.333333),
+"times": PackedFloat32Array(8.566666),
 "transitions": PackedFloat32Array(1),
 "values": [{
 "args": [&"filled", 1.0, false],
@@ -2748,7 +2757,7 @@ tracks/5/path = NodePath("left/bag:position")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
-"times": PackedFloat32Array(6.700001, 6.9000006, 7.100001, 7.2800007, 7.466667, 7.6666675, 7.833334, 8.133333),
+"times": PackedFloat32Array(4.933334, 5.1333337, 5.333334, 5.513334, 5.7000003, 5.9000006, 6.066667, 6.3666663),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
 "update": 0,
 "values": [Vector2(-82, -121), Vector2(-45, -160), Vector2(37, -94), Vector2(109, -125), Vector2(226, -68), Vector2(376, -126), Vector2(480, -38), Vector2(832.885, -120)]
@@ -2760,7 +2769,7 @@ tracks/6/path = NodePath("left/bag:frame")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/keys = {
-"times": PackedFloat32Array(0.1, 6.507839),
+"times": PackedFloat32Array(0.1, 4.7411723),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [0, 14]
@@ -2772,7 +2781,7 @@ tracks/7/path = NodePath("left/cashierMouth:animation")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = {
-"times": PackedFloat32Array(0.0333333, 9.533334),
+"times": PackedFloat32Array(0.0333333, 7.766667),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [&"default", &"talking"]
@@ -2784,7 +2793,7 @@ tracks/8/path = NodePath("left/cashierMouth")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = {
-"times": PackedFloat32Array(9.530273, 11.1),
+"times": PackedFloat32Array(7.7636065, 9.333334),
 "transitions": PackedFloat32Array(1, 1),
 "values": [{
 "args": [&"talking", 1.0, false],
@@ -2801,7 +2810,7 @@ tracks/9/path = NodePath("../CanvasLayer/textBoxes/textBox1/Panel/MarginContaine
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/keys = {
-"times": PackedFloat32Array(9.49694),
+"times": PackedFloat32Array(7.730273),
 "transitions": PackedFloat32Array(1),
 "values": [{
 "args": ["Cashier : Do you want a bag?"],
@@ -2815,7 +2824,7 @@ tracks/10/path = NodePath("../left:color")
 tracks/10/interp = 1
 tracks/10/loop_wrap = true
 tracks/10/keys = {
-"times": PackedFloat32Array(11.241566, 11.624089, 17, 17.366667),
+"times": PackedFloat32Array(9.474899, 9.857422, 15.233334, 15.6),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 0,
 "values": [Color(0, 0, 0, 0), Color(0, 0, 0, 0.8156863), Color(0, 0, 0, 0.8156863), Color(0, 0, 0, 0)]
@@ -2827,7 +2836,7 @@ tracks/11/path = NodePath("../right:color")
 tracks/11/interp = 1
 tracks/11/loop_wrap = true
 tracks/11/keys = {
-"times": PackedFloat32Array(11.241566, 11.624089),
+"times": PackedFloat32Array(9.474899, 9.857422),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Color(0, 0, 0, 0.8156863), Color(0, 0, 0, 0)]
@@ -2839,7 +2848,7 @@ tracks/12/path = NodePath("right/wife:animation")
 tracks/12/interp = 1
 tracks/12/loop_wrap = true
 tracks/12/keys = {
-"times": PackedFloat32Array(11.082181),
+"times": PackedFloat32Array(9.315514),
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [&"default"]
@@ -2851,7 +2860,7 @@ tracks/13/path = NodePath("right/mouth:animation")
 tracks/13/interp = 1
 tracks/13/loop_wrap = true
 tracks/13/keys = {
-"times": PackedFloat32Array(11.082181, 11.09812, 12.325382),
+"times": PackedFloat32Array(9.315514, 9.331453, 10.558716),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
 "values": [&"default", &"default", &"talking"]
@@ -2863,7 +2872,7 @@ tracks/14/path = NodePath("../CanvasLayer/textBoxes/textBox2/Panel/MarginContain
 tracks/14/interp = 1
 tracks/14/loop_wrap = true
 tracks/14/keys = {
-"times": PackedFloat32Array(12.333334, 15.3),
+"times": PackedFloat32Array(10.566668, 13.533333),
 "transitions": PackedFloat32Array(1, 1),
 "values": [{
 "args": ["Wife: Im off to work now bye honey!"],
@@ -2880,9 +2889,21 @@ tracks/15/path = NodePath("..")
 tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = {
-"times": PackedFloat32Array(17.4),
-"transitions": PackedFloat32Array(1),
+"times": PackedFloat32Array(0, 1.4333333, 2.1084094, 2.815794, 15.633333),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "values": [{
+"args": ["supermarket"],
+"method": &"setMusic"
+}, {
+"args": ["bag"],
+"method": &"setSFX"
+}, {
+"args": ["bag"],
+"method": &"setSFX"
+}, {
+"args": ["bag"],
+"method": &"setSFX"
+}, {
 "args": [1],
 "method": &"decision"
 }]
@@ -2924,7 +2945,7 @@ tracks/0/path = NodePath("../AnimationPlayer")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 34),
+"times": PackedFloat32Array(0, 32.466667),
 "transitions": PackedFloat32Array(1, 1),
 "values": [{
 "args": [&"last", "Scene12"],
@@ -3044,7 +3065,7 @@ tracks/7/path = NodePath("../CanvasLayer/textBoxes/textBox2/Panel/MarginContaine
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = {
-"times": PackedFloat32Array(19.933332, 24.9, 28.80209),
+"times": PackedFloat32Array(21.233334, 23.533333, 27.3),
 "transitions": PackedFloat32Array(1, 1, 1),
 "values": [{
 "args": ["You: I love you too"],
@@ -3064,11 +3085,31 @@ tracks/8/path = NodePath("right/door")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = {
-"times": PackedFloat32Array(30.6),
+"times": PackedFloat32Array(29.366667),
 "transitions": PackedFloat32Array(1),
 "values": [{
 "args": [&"default", 1.0, false],
 "method": &"play"
+}]
+}
+tracks/9/type = "method"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("..")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(2.5, 19.833334, 29.433332),
+"transitions": PackedFloat32Array(1, 1, 1),
+"values": [{
+"args": ["love"],
+"method": &"setMusic"
+}, {
+"args": ["supermarket"],
+"method": &"setMusic"
+}, {
+"args": ["doorClose"],
+"method": &"setSFX"
 }]
 }
 
@@ -3184,7 +3225,7 @@ tracks/7/keys = {
 "args": ["You: Yeah, that would be nice"],
 "method": &"setLine"
 }, {
-"args": ["Wife: Well then MAYBE you shouldnt have beat that child!"],
+"args": ["Wife: Well then MAYBE you shouldnt have taught our son how to box!"],
 "method": &"setLine"
 }, {
 "args": ["Wife: HMM?"],
@@ -3655,9 +3696,15 @@ tracks/8/path = NodePath("right/door")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = {
-"times": PackedFloat32Array(20.666666),
-"transitions": PackedFloat32Array(1),
+"times": PackedFloat32Array(4.8, 19.9, 20.666666),
+"transitions": PackedFloat32Array(1, 1, 1),
 "values": [{
+"args": ["love"],
+"method": &"setMusic"
+}, {
+"args": ["supermarket"],
+"method": &"setMusic"
+}, {
 "args": [&"slam", 1.0, false],
 "method": &"play"
 }]
@@ -3673,9 +3720,12 @@ tracks/0/path = NodePath("../CanvasLayer/textBoxes/textBox1/Panel/MarginContaine
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0.43333334, 1.4333333),
-"transitions": PackedFloat32Array(1, 1),
+"times": PackedFloat32Array(0, 0.43333334, 1.4333333),
+"transitions": PackedFloat32Array(1, 1, 1),
 "values": [{
+"args": [""],
+"method": &"setLine"
+}, {
 "args": ["Robber: HEY YOU!"],
 "method": &"setLine"
 }, {
@@ -3798,9 +3848,12 @@ tracks/10/path = NodePath("../CanvasLayer/textBoxes/textBox2/Panel/MarginContain
 tracks/10/interp = 1
 tracks/10/loop_wrap = true
 tracks/10/keys = {
-"times": PackedFloat32Array(5.733333),
-"transitions": PackedFloat32Array(1),
+"times": PackedFloat32Array(0.021435892, 5.733333),
+"transitions": PackedFloat32Array(1, 1),
 "values": [{
+"args": [""],
+"method": &"setLine"
+}, {
 "args": ["Old Lady: AHHHH"],
 "method": &"setLine"
 }]
@@ -3812,9 +3865,12 @@ tracks/11/path = NodePath("..")
 tracks/11/interp = 1
 tracks/11/loop_wrap = true
 tracks/11/keys = {
-"times": PackedFloat32Array(7.7),
-"transitions": PackedFloat32Array(1),
+"times": PackedFloat32Array(0, 7.7),
+"transitions": PackedFloat32Array(1, 1),
 "values": [{
+"args": ["worker"],
+"method": &"setMusic"
+}, {
 "args": [2],
 "method": &"decision"
 }]
@@ -3845,6 +3901,30 @@ tracks/13/keys = {
 "update": 1,
 "values": [false]
 }
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath(".:visible")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("../scene2/right/ColorRect/gameoverGlass:position")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(657, 2892)]
+}
 
 [sub_resource type="Animation" id="Animation_n5t1e"]
 resource_name = "Scene2"
@@ -3865,7 +3945,7 @@ tracks/0/keys = {
 "args": ["Robber: What money bro?"],
 "method": &"setLine"
 }, {
-"args": ["Robber: Your so poor duck throw bread at you!"],
+"args": ["Robber: Your so poor ducks throw bread at you!"],
 "method": &"setLine"
 }, {
 "args": ["Robber: Your so poor"],
@@ -4016,9 +4096,12 @@ tracks/11/path = NodePath("..")
 tracks/11/interp = 1
 tracks/11/loop_wrap = true
 tracks/11/keys = {
-"times": PackedFloat32Array(28.233334),
-"transitions": PackedFloat32Array(1),
+"times": PackedFloat32Array(23.233334, 28.233334),
+"transitions": PackedFloat32Array(1, 1),
 "values": [{
+"args": ["gunCock"],
+"method": &"setSFX"
+}, {
 "args": [21],
 "method": &"decision"
 }]
@@ -4073,7 +4156,7 @@ tracks/15/path = NodePath("../scene2/right/mouth:visible")
 tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = {
-"times": PackedFloat32Array(0, 22.770195),
+"times": PackedFloat32Array(0, 20.433332),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [false, true]
@@ -4356,14 +4439,28 @@ tracks/17/keys = {
 "times": PackedFloat32Array(39.566666),
 "transitions": PackedFloat32Array(1),
 "values": [{
-"args": [&"Scene3", -1, 1.0, false],
+"args": [&"scene3", -1, 1.0, false],
 "method": &"play"
+}]
+}
+tracks/18/type = "method"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("..")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(15.4),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["gunshot"],
+"method": &"setSFX"
 }]
 }
 
 [sub_resource type="Animation" id="Animation_53bls"]
 resource_name = "Scene212"
-length = 40.0
+length = 45.0
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -4609,11 +4706,25 @@ tracks/17/path = NodePath("../AnimationPlayer")
 tracks/17/interp = 1
 tracks/17/loop_wrap = true
 tracks/17/keys = {
-"times": PackedFloat32Array(40.585968),
+"times": PackedFloat32Array(41.366665),
 "transitions": PackedFloat32Array(1),
 "values": [{
-"args": [&"Scene3", -1, 1.0, false],
+"args": [&"scene3", -1, 1.0, false],
 "method": &"play"
+}]
+}
+tracks/18/type = "method"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("..")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(16.433332),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["gunshot"],
+"method": &"setSFX"
 }]
 }
 
@@ -4825,7 +4936,7 @@ tracks/12/keys = {
 "args": [&"last", "Scene21"],
 "method": &"set_meta"
 }, {
-"args": [&"Scene3", -1, 1.0, false],
+"args": [&"scene3", -1, 1.0, false],
 "method": &"play"
 }]
 }
@@ -4968,9 +5079,12 @@ tracks/5/path = NodePath("../CanvasLayer/textBoxes/textBox1/Panel/MarginContaine
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
-"times": PackedFloat32Array(1.0666667),
-"transitions": PackedFloat32Array(1),
+"times": PackedFloat32Array(0, 1.0666667),
+"transitions": PackedFloat32Array(1, 1),
 "values": [{
+"args": [""],
+"method": &"setLine"
+}, {
 "args": ["Co-worker: Boss what do you think of this design? "],
 "method": &"setLine"
 }]
@@ -5020,9 +5134,12 @@ tracks/9/path = NodePath("../CanvasLayer/textBoxes/textBox2/Panel/MarginContaine
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/keys = {
-"times": PackedFloat32Array(8.7),
-"transitions": PackedFloat32Array(1),
+"times": PackedFloat32Array(0, 8.7),
+"transitions": PackedFloat32Array(1, 1),
 "values": [{
+"args": [""],
+"method": &"setLine"
+}, {
 "args": ["Baby: Do you wike my dwawing dada?"],
 "method": &"setLine"
 }]
@@ -5034,9 +5151,12 @@ tracks/10/path = NodePath("..")
 tracks/10/interp = 1
 tracks/10/loop_wrap = true
 tracks/10/keys = {
-"times": PackedFloat32Array(14.333333),
-"transitions": PackedFloat32Array(1),
+"times": PackedFloat32Array(0.033333335, 14.333333),
+"transitions": PackedFloat32Array(1, 1),
 "values": [{
+"args": ["working"],
+"method": &"setMusic"
+}, {
 "args": [3],
 "method": &"decision"
 }]
@@ -5754,6 +5874,65 @@ shader_parameter/strength = 0.1
 shader_parameter/fps = 6.0
 shader_parameter/noise = SubResource("NoiseTexture2D_5vw27")
 
+[sub_resource type="AudioStreamInteractive" id="AudioStreamInteractive_33vkc"]
+clip_count = 4
+clip_0/name = &"supermarket"
+clip_0/stream = ExtResource("439_fgj2h")
+clip_0/auto_advance = 0
+clip_1/name = &"love"
+clip_1/stream = ExtResource("440_33vkc")
+clip_1/auto_advance = 0
+clip_2/name = &"worker"
+clip_2/stream = ExtResource("442_ct655")
+clip_2/auto_advance = 0
+clip_3/name = &"working"
+clip_3/stream = ExtResource("443_tk4ml")
+clip_3/auto_advance = 0
+_transitions = {
+Vector2i(-1, -1): {
+"fade_beats": 1.0,
+"fade_mode": 3,
+"from_time": 2,
+"to_time": 0
+}
+}
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_7wskh"]
+random_pitch = 1.0481414
+random_volume_offset_db = 2.03
+streams_count = 2
+stream_0/stream = ExtResource("443_7wskh")
+stream_1/stream = ExtResource("444_we7ek")
+
+[sub_resource type="AudioStreamInteractive" id="AudioStreamInteractive_wibxs"]
+clip_count = 4
+clip_0/name = &"bag"
+clip_0/stream = SubResource("AudioStreamRandomizer_7wskh")
+clip_0/auto_advance = 0
+clip_1/name = &"doorClose"
+clip_1/stream = ExtResource("445_we7ek")
+clip_1/auto_advance = 0
+clip_2/name = &"gunCock"
+clip_2/stream = ExtResource("446_4t3jq")
+clip_2/auto_advance = 0
+clip_3/name = &"gunshot"
+clip_3/stream = ExtResource("447_wibxs")
+clip_3/auto_advance = 0
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_wv2wi"]
+playback_mode = 1
+random_pitch = 1.0692382
+random_volume_offset_db = 3.75
+streams_count = 1
+stream_0/stream = ExtResource("443_k508x")
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_lt7rr"]
+playback_mode = 1
+random_pitch = 1.0692382
+random_volume_offset_db = 3.75
+streams_count = 1
+stream_0/stream = ExtResource("444_lt7rr")
+
 [node name="main" type="Node2D" unique_id=349520352]
 position = Vector2(-2, -1)
 script = ExtResource("1_h2yge")
@@ -5809,7 +5988,7 @@ visible = false
 position = Vector2(480, 540)
 
 [node name="background" type="Sprite2D" parent="scene2/left" unique_id=198342837]
-texture = SubResource("CompressedTexture2D_qe8ju")
+texture = ExtResource("40_c8pmb")
 
 [node name="robber" type="AnimatedSprite2D" parent="scene2/left" unique_id=412295403]
 position = Vector2(0, -268)
@@ -5861,7 +6040,7 @@ offset_bottom = 557.0
 color = Color(1, 1, 1, 0)
 
 [node name="gameoverGlass" type="Sprite2D" parent="scene2/right/ColorRect" unique_id=198680185]
-position = Vector2(-106, 2058)
+position = Vector2(-75, 2607)
 texture = ExtResource("85_ldnlw")
 
 [node name="scene3" type="Node2D" parent="." unique_id=21437851]
@@ -5885,7 +6064,7 @@ animation = &"scene312"
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1918323572]
 root_node = NodePath("../scene1")
 libraries/ = SubResource("AnimationLibrary_f6a44")
-autoplay = &"Scene1"
+autoplay = &"scene3"
 metadata/last = ""
 
 [node name="left" type="ColorRect" parent="." unique_id=413973183]
@@ -5987,6 +6166,24 @@ autoplay = &"textBox"
 material = SubResource("ShaderMaterial_kek77")
 position = Vector2(966, 539)
 texture = ExtResource("5_lquwl")
+
+[node name="music" type="AudioStreamPlayer" parent="." unique_id=436137363]
+stream = SubResource("AudioStreamInteractive_33vkc")
+autoplay = true
+
+[node name="SFX" type="AudioStreamPlayer" parent="." unique_id=192079035]
+stream = SubResource("AudioStreamInteractive_wibxs")
+autoplay = true
+
+[node name="talkingMale" type="AudioStreamPlayer" parent="." unique_id=1658983639]
+stream = SubResource("AudioStreamRandomizer_wv2wi")
+pitch_scale = 1.13
+max_polyphony = 20
+
+[node name="talkingFemale" type="AudioStreamPlayer" parent="." unique_id=367544669]
+stream = SubResource("AudioStreamRandomizer_lt7rr")
+volume_db = -8.268
+max_polyphony = 20
 
 [connection signal="meta_clicked" from="CanvasLayer/textBoxes/textBox1/Panel/MarginContainer/Subtitles" to="." method="_on_subtitles_meta_clicked"]
 [connection signal="meta_hover_ended" from="CanvasLayer/textBoxes/textBox1/Panel/MarginContainer/Subtitles" to="." method="_on_subtitles_meta_hover_ended"]
