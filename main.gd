@@ -50,16 +50,20 @@ func decision(scene: int):
 		addChoices("Dont take my money!","Oh im so sorry")
 	elif scene == 21:
 		addChoices("Give me your money","How about.. NO!")
+	elif scene == 3:
+		addChoices("It looks rubbish","It looks great!")
+	elif scene == 31:
+		addChoices("Now it looks great","I think it just needs some improvement")
 func addChoices(c1,c2,hover=0):
-	var hoverSize = "65"
+	var hoverSize = "55"
 	choice1 = c1
 	choice2 = c2
 	if hover == 1:
-		sub1.text += '\n [shake  rate=4 level=8][url="'+c1+'"][font_size='+hoverSize+']' +c1+'[/font_size][/url]\n[url="' +c2+'"]' +c2+'[/url][/shake]'
-		sub2.text += '\n [shake  rate=4 level=8][url="'+c1+'"][font_size='+hoverSize+']' +c1+'[/font_size][/url]\n[url="' +c2+'"]' +c2+'[/url][/shake]'
+		sub1.text += '\n [shake  rate=4 level=8][url="'+c1+'"][font_size='+hoverSize+'][color=#808080]' +c1+'[/color][/font_size][/url]\n[url="' +c2+'"]' +c2+'[/url][/shake]'
+		sub2.text += '\n [shake  rate=4 level=8][url="'+c1+'"][font_size='+hoverSize+'][color=#808080]' +c1+'[/color][/font_size][/url]\n[url="' +c2+'"]' +c2+'[/url][/shake]'
 	elif hover == 2:
-		sub1.text += '\n [shake  rate=4 level=8][url="'+c1+'"]' +c1+'[/url]\n[url="' +c2+'"][font_size='+hoverSize+']' +c2+'[/font_size][/url][/shake]'
-		sub2.text += '\n [shake  rate=4 level=8][url="'+c1+'"]' +c1+'[/url]\n[url="' +c2+'"][font_size='+hoverSize+']' +c2+'[/font_size][/url][/shake]'
+		sub1.text += '\n [shake  rate=4 level=8][url="'+c1+'"]' +c1+'[/url]\n[url="' +c2+'"][font_size='+hoverSize+'][color=#808080]' +c2+'[/color][/font_size][/url][/shake]'
+		sub2.text += '\n [shake  rate=4 level=8][url="'+c1+'"]' +c1+'[/url]\n[url="' +c2+'"][font_size='+hoverSize+'][color=#808080]' +c2+'[/color][/font_size][/url][/shake]'
 	else:
 		sub1.text += '\n [url="'+c1+'"]' +c1+'[/url]\n[url="' +c2+'"]' +c2+'[/url]'
 		sub2.text += '\n [url="'+c1+'"]' +c1+'[/url]\n[url="' +c2+'"]' +c2+'[/url]'

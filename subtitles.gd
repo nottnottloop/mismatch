@@ -10,9 +10,9 @@ var idx = 0
 var lastLetter = Time.get_ticks_msec()
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if idx <= len(finishedText)-1 and Time.get_ticks_msec()-lastLetter> 80/Engine.time_scale and finishedText:
+	if idx <= len(finishedText)-1 and Time.get_ticks_msec()-lastLetter> 50/Engine.time_scale and finishedText:
 		if finishedText[idx]  in ",.":
-			lastLetter = Time.get_ticks_msec()+160/Engine.time_scale
+			lastLetter = Time.get_ticks_msec()+120/Engine.time_scale
 
 		else:
 			lastLetter = Time.get_ticks_msec()
