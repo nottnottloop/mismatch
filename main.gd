@@ -100,3 +100,8 @@ func _on_subtitles_meta_clicked(meta: Variant) -> void:
 		$AnimationPlayer.play(str($AnimationPlayer.get_meta("last"))+"2")
 	choice1 = null
 	choice2 = null
+
+
+func _on_start_pressed() -> void:
+	$AnimationPlayer.play("start")
+	$CanvasLayer/CenterContainer/start.hide()
