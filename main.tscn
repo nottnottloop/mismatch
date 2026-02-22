@@ -450,6 +450,7 @@
 [ext_resource type="AudioStream" uid="uid://c6motoug3iwg2" path="res://closeDoor.mp3" id="445_we7ek"]
 [ext_resource type="AudioStream" uid="uid://c5q1111mhho86" path="res://gunCock.mp3" id="446_4t3jq"]
 [ext_resource type="AudioStream" uid="uid://stkf3wy8qlv6" path="res://gunshot.mp3" id="447_wibxs"]
+[ext_resource type="AudioStream" uid="uid://ccewvweiywr5t" path="res://openDoor.mp3" id="629_5eihh"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_0odxb"]
 animations = [{
@@ -2347,6 +2348,11 @@ animations = [{
 "name": &"scene32",
 "speed": 5.0
 }]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cqmm2"]
+animations = []
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sv7en"]
 
 [sub_resource type="Animation" id="Animation_qnost"]
 length = 0.001
@@ -5469,7 +5475,7 @@ tracks/10/keys = {
 
 [sub_resource type="Animation" id="Animation_c8pmb"]
 resource_name = "scene312"
-length = 60.0
+length = 80.0
 tracks/0/type = "method"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -5544,8 +5550,8 @@ tracks/5/path = NodePath("../CanvasLayer/textBoxes/textBox1/Panel/MarginContaine
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
-"times": PackedFloat32Array(0.93333334, 4.366667, 6.0206475, 7.6333337, 12.133333, 17.066668, 21.533333),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0.93333334, 4.366667, 6.0206475, 7.6333337, 12.133333, 18.633333, 23.066668, 26.066668),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
 "values": [{
 "args": ["You: I think it just needs some improvements"],
 "method": &"setLine"
@@ -5565,7 +5571,10 @@ tracks/5/keys = {
 "args": ["Co-worker: You know what!? You know WHAT!? "],
 "method": &"setLine"
 }, {
-"args": ["Co-worker: I think i will improve it! HAHAHA! I WIN!"],
+"args": ["Co-worker: I think i will improve it! HAHAHA!"],
+"method": &"setLine"
+}, {
+"args": ["Co-worker: I WIN!"],
 "method": &"setLine"
 }]
 }
@@ -5576,7 +5585,7 @@ tracks/6/path = NodePath("../left:color")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/keys = {
-"times": PackedFloat32Array(0, 25.914825, 26.8, 58.566666, 59.466667),
+"times": PackedFloat32Array(0, 31.181492, 32.066666, 63.833332, 64.73334),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "update": 0,
 "values": [Color(0, 0, 0, 0), Color(0, 0, 0, 0), Color(0, 0, 0, 0.7176471), Color(0, 0, 0, 0.7176471), Color(0, 0, 0, 0)]
@@ -5588,7 +5597,7 @@ tracks/7/path = NodePath("../right:color")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = {
-"times": PackedFloat32Array(0.033333335, 25.902481, 26.614826),
+"times": PackedFloat32Array(0.033333335, 31.169147, 31.881493),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
 "values": [Color(0, 0, 0, 0.8156863), Color(0, 0, 0, 0.8156863), Color(0, 0, 0, 0)]
@@ -5600,7 +5609,7 @@ tracks/8/path = NodePath("../scene3/right/main")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = {
-"times": PackedFloat32Array(32.74816),
+"times": PackedFloat32Array(38.014828),
 "transitions": PackedFloat32Array(1),
 "values": [{
 "args": [&"scene312", 1.0, false],
@@ -5614,7 +5623,7 @@ tracks/9/path = NodePath("../CanvasLayer/textBoxes/textBox2/Panel/MarginContaine
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/keys = {
-"times": PackedFloat32Array(28.835472, 38.866665, 43.133335, 47.933334, 53.533333),
+"times": PackedFloat32Array(34.10214, 44.13333, 48.4, 53.2, 58.8),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "values": [{
 "args": ["You: I think it just needs some improvements"],
@@ -5640,9 +5649,24 @@ tracks/10/path = NodePath("..")
 tracks/10/interp = 1
 tracks/10/loop_wrap = true
 tracks/10/keys = {
-"times": PackedFloat32Array(),
-"transitions": PackedFloat32Array(),
-"values": []
+"times": PackedFloat32Array(10, 11.166667, 14.266666, 17.2, 27.266666),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"values": [{
+"args": ["doorClose"],
+"method": &"setSFX"
+}, {
+"args": ["doorOpen"],
+"method": &"setSFX"
+}, {
+"args": ["doorClose"],
+"method": &"setSFX"
+}, {
+"args": ["doorOpen"],
+"method": &"setSFX"
+}, {
+"args": ["doorClose"],
+"method": &"setSFX"
+}]
 }
 
 [sub_resource type="Animation" id="Animation_fgj2h"]
@@ -5905,7 +5929,7 @@ stream_0/stream = ExtResource("443_7wskh")
 stream_1/stream = ExtResource("444_we7ek")
 
 [sub_resource type="AudioStreamInteractive" id="AudioStreamInteractive_wibxs"]
-clip_count = 4
+clip_count = 5
 clip_0/name = &"bag"
 clip_0/stream = SubResource("AudioStreamRandomizer_7wskh")
 clip_0/auto_advance = 0
@@ -5918,6 +5942,9 @@ clip_2/auto_advance = 0
 clip_3/name = &"gunshot"
 clip_3/stream = ExtResource("447_wibxs")
 clip_3/auto_advance = 0
+clip_4/name = &"doorOpen"
+clip_4/stream = ExtResource("629_5eihh")
+clip_4/auto_advance = 0
 
 [sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_wv2wi"]
 playback_mode = 1
@@ -6061,10 +6088,27 @@ position = Vector2(1440, 523)
 sprite_frames = SubResource("SpriteFrames_4twoi")
 animation = &"scene312"
 
+[node name="scene4" type="Node2D" parent="." unique_id=1970005198]
+visible = false
+
+[node name="left" type="Node2D" parent="scene4" unique_id=88054433]
+position = Vector2(480, 540)
+
+[node name="main" type="AnimatedSprite2D" parent="scene4/left" unique_id=169021187]
+position = Vector2(0, -1393)
+sprite_frames = SubResource("SpriteFrames_cqmm2")
+animation = &""
+
+[node name="right" type="Node2D" parent="scene4" unique_id=1878851877]
+position = Vector2(1440, 523)
+
+[node name="main" type="AnimatedSprite2D" parent="scene4/right" unique_id=874104519]
+sprite_frames = SubResource("SpriteFrames_sv7en")
+
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1918323572]
 root_node = NodePath("../scene1")
 libraries/ = SubResource("AnimationLibrary_f6a44")
-autoplay = &"scene3"
+autoplay = &"scene312"
 metadata/last = ""
 
 [node name="left" type="ColorRect" parent="." unique_id=413973183]
@@ -6173,7 +6217,9 @@ autoplay = true
 
 [node name="SFX" type="AudioStreamPlayer" parent="." unique_id=192079035]
 stream = SubResource("AudioStreamInteractive_wibxs")
+volume_db = 5.426
 autoplay = true
+bus = &"SFX"
 
 [node name="talkingMale" type="AudioStreamPlayer" parent="." unique_id=1658983639]
 stream = SubResource("AudioStreamRandomizer_wv2wi")
