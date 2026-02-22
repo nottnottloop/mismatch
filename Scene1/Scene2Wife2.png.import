@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Scene2Wife2.png-dc7c5e15f8c0d3bb19e9d17015cfd
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

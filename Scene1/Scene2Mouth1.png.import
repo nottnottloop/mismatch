@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Scene2Mouth1.png-3aef999cb0dfc48806e785eeb2f4
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

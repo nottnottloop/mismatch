@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Scene1Bag7.png-df66fd9b50ae8c98372fa318871d4f
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

@@ -15,9 +15,9 @@ dest_files=["res://.godot/imported/Frame0050.png-3e732cc28b13bea89b0a94e62e32c08
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.7
+compress/lossy_quality=0.6
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
