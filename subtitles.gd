@@ -21,11 +21,14 @@ func _process(delta: float) -> void:
 		elif "Baby" in finishedText:
 			$"../../../../../../talkingMale".pitch_scale = 0.8
 			$"../../../../../../talkingMale".play()
+		elif "Builder" in finishedText:
+			$"../../../../../../talkingMale".pitch_scale = 0.8
+			$"../../../../../../talkingMale".play()
 		elif "Alien" in finishedText:
 			$"../../../../../../talkingMale".pitch_scale = 1.4
 			$"../../../../../../talkingMale".play()
 		else:
-			$"../../../../../../talkingMale".pitch_scale = 1
+			$"../../../../../../talkingMale".pitch_scale = 1.13
 			$"../../../../../../talkingMale".play()
 
 		text = "[shake  rate=4 level=8]"+finishedText.substr(0,idx+1)+"[/shake]"

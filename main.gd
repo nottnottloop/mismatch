@@ -63,6 +63,8 @@ func decision(scene: int):
 		addChoices("Now it looks great","I think it just needs some improvement")
 	elif scene == 4:
 		addChoices("KILL THEM ALL","What if we work together?")
+	elif scene == 5:
+				addChoices("You look familiar","Have we met?")
 func addChoices(c1,c2,hover=0):
 	var hoverSize = "55"
 	choice1 = c1
