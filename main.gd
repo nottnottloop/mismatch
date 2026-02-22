@@ -61,6 +61,8 @@ func decision(scene: int):
 		addChoices("It looks rubbish","It looks great!")
 	elif scene == 31:
 		addChoices("Now it looks great","I think it just needs some improvement")
+	elif scene == 4:
+		addChoices("KILL THEM ALL","What if we work together?")
 func addChoices(c1,c2,hover=0):
 	var hoverSize = "55"
 	choice1 = c1
@@ -92,6 +94,7 @@ func _on_subtitles_meta_hover_ended(_meta: Variant) -> void:
 
 
 func _on_subtitles_meta_clicked(meta: Variant) -> void:
+	setSFX("click")
 	sub1.text = "[shake  rate=4 level=8]"+sub1.finishedText+"[/shake]"
 	sub2.text = "[shake  rate=4 level=8]"+sub2.finishedText+"[/shake]"
 	if meta == choice1:

@@ -21,6 +21,9 @@ func _process(delta: float) -> void:
 		elif "Baby" in finishedText:
 			$"../../../../../../talkingMale".pitch_scale = 0.8
 			$"../../../../../../talkingMale".play()
+		elif "Alien" in finishedText:
+			$"../../../../../../talkingMale".pitch_scale = 1.4
+			$"../../../../../../talkingMale".play()
 		else:
 			$"../../../../../../talkingMale".pitch_scale = 1
 			$"../../../../../../talkingMale".play()
