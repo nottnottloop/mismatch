@@ -8,6 +8,9 @@ texture = ExtResource("1_cjfk0")
 region_rect = Rect2(0, 0, 700, 230)
 
 [resource]
+Button/font_sizes/font_size = 60
+Button/fonts/font = ExtResource("2_cjfk0")
+Button/styles/normal = null
 Panel/styles/panel = SubResource("StyleBoxTexture_lquwl")
 RichTextLabel/colors/default_color = Color(0, 0, 0, 1)
 RichTextLabel/font_sizes/normal_font_size = 60

@@ -9839,6 +9839,18 @@ tracks/14/keys = {
 "update": 1,
 "values": [false, true]
 }
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("../CanvasLayer/textBoxes:visible")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(26.004997),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 
 [sub_resource type="Animation" id="Animation_e4p22"]
 resource_name = "scene3"
@@ -10259,13 +10271,13 @@ tracks/0/path = NodePath("../AnimationPlayer")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 19),
+"times": PackedFloat32Array(0, 16.966667),
 "transitions": PackedFloat32Array(1, 1),
 "values": [{
 "args": [&"last", "scene311"],
 "method": &"set_meta"
 }, {
-"args": [&"", -1, 1.0, false],
+"args": [&"scene4", -1, 1.0, false],
 "method": &"play"
 }]
 }
@@ -10656,7 +10668,7 @@ tracks/0/path = NodePath("../AnimationPlayer")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 18.933332),
+"times": PackedFloat32Array(0, 19.1),
 "transitions": PackedFloat32Array(1, 1),
 "values": [{
 "args": [&"last", "scene32"],
@@ -13154,7 +13166,7 @@ position = Vector2(480, 540)
 sprite_frames = SubResource("SpriteFrames_xntwl")
 
 [node name="right" type="AnimatedSprite2D" parent="intro" unique_id=1702420606]
-position = Vector2(1440, 540)
+position = Vector2(1442, 541)
 sprite_frames = SubResource("SpriteFrames_3vftl")
 
 [node name="end" type="Node2D" parent="." unique_id=1252585546]
@@ -13171,7 +13183,7 @@ sprite_frames = SubResource("SpriteFrames_dtauq")
 animation = &"end"
 
 [node name="transition" type="AnimatedSprite2D" parent="." unique_id=826239708]
-position = Vector2(960, 540)
+position = Vector2(962, 541)
 sprite_frames = SubResource("SpriteFrames_jtpdi")
 animation = &"in"
 
@@ -13185,6 +13197,14 @@ visible = false
 position = Vector2(960, 540)
 texture = ExtResource("1520_77sai")
 
+[node name="replay" type="Button" parent="theend" unique_id=319841230]
+offset_left = -38.0
+offset_top = 188.0
+offset_right = 158.0
+offset_bottom = 269.0
+theme = ExtResource("2_1bvp3")
+text = "Replay"
+
 [connection signal="pressed" from="CanvasLayer/CenterContainer/start" to="." method="_on_start_pressed"]
 [connection signal="meta_clicked" from="CanvasLayer/textBoxes/textBox1/Panel/MarginContainer/Subtitles" to="." method="_on_subtitles_meta_clicked"]
 [connection signal="meta_hover_ended" from="CanvasLayer/textBoxes/textBox1/Panel/MarginContainer/Subtitles" to="." method="_on_subtitles_meta_hover_ended"]
@@ -13192,3 +13212,4 @@ texture = ExtResource("1520_77sai")
 [connection signal="meta_clicked" from="CanvasLayer/textBoxes/textBox2/Panel/MarginContainer/Subtitles" to="." method="_on_subtitles_meta_clicked"]
 [connection signal="meta_hover_ended" from="CanvasLayer/textBoxes/textBox2/Panel/MarginContainer/Subtitles" to="." method="_on_subtitles_meta_hover_ended"]
 [connection signal="meta_hover_started" from="CanvasLayer/textBoxes/textBox2/Panel/MarginContainer/Subtitles" to="." method="_on_subtitles_meta_hover_started"]
+[connection signal="pressed" from="theend/replay" to="." method="_on_replay_pressed"]

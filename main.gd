@@ -110,3 +110,7 @@ func _on_subtitles_meta_clicked(meta: Variant) -> void:
 func _on_start_pressed() -> void:
 	$AnimationPlayer.play("start")
 	$CanvasLayer/CenterContainer/start.hide()
+
+
+func _on_replay_pressed() -> void:
+	get_tree().reload_current_scene()
